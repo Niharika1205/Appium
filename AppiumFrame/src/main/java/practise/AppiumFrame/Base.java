@@ -127,6 +127,8 @@ public class Base {
 		return driver;
 	}
 	
+	
+	
 	public static void getScreenshot(String fileName) {
 		File scr =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
